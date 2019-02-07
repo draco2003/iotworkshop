@@ -1,3 +1,7 @@
 click
 flask
 paho-mqtt
+python-engineio
+python-socketio
+Flask-Bootstrap
+Flask-SocketIO
