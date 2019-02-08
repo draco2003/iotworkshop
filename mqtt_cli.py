@@ -19,19 +19,14 @@ def on_message(client, userdata, msg):
               help='The mqtt broker port to connect to.')
 @click.option('--topic', default='hackher413Workshop',
               help='The mqtt topic to send/receive on.')
-@click.option('--username', default='',
-              help='The mqtt username.')
-@click.option('--password', default='',
-              help='The mqtt password.')
 @click.option('--message',
               help='If message is passed, sends message instead of listening')
-def mqtt_cli(host, port, topic, message, username, password):
+def mqtt_cli(host, port, topic, message):
     """Simple MQTT CLI tool for sending and receiving MQTT Messages."""
 
     client = mqtt.Client()
     client.on_connect = on_connect
     client.on_message = on_message
-    client.username_pw_set(username, password=password)
     client.connect(host, port, 60)
 
     print('Connecting to %s:%s' % (host, port))
