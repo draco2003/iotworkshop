@@ -5,7 +5,7 @@ You're required to have a github user account to verify user/email in order to u
 
 [Sandbox environment for this Workshop/Repo](https://gitpod.io/#https://github.com/draco2003/iotworkshop)
 
-[Presentation Slides](https://someslidedeckurltocome)
+[Presentation Slides](https://docs.google.com/presentation/d/1DMbn1_U7t8sulNTfID0-JmK_EtUKRi6L0MgjR9SWafU/edit?usp=sharing)
 
 ## Files in this repo to checkout
 
