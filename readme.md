@@ -1,11 +1,11 @@
 This repo is the student resources required to partcipate in the "Your code brightens the room" workshop
 
 To Get Started click the following link sandbox link to create a workspace on Gitpod.
-You're required to have a github user account to verify user/email in order to use the Gitpod service. 
+You're required to have a github user account to verify user/email in order to use the Gitpod service.
 
 [Sandbox environment for this Workshop/Repo](https://gitpod.io/#https://github.com/draco2003/iotworkshop)
 
-[Presentation Slides](https://github.com/draco2003/iotworkshop/blob/master/Presentation.pdf)
+[Presentation Slides](https://someslidedeckurltocome)
 
 ## Files in this repo to checkout
 
@@ -16,13 +16,13 @@ You're required to have a github user account to verify user/email in order to u
 
 ## mqtt_cli.py example commands:
 Off:
-`python mqtt_cli.py --message off --topic cmnd/<yourdevicename>/power`
+`python mqtt_cli.py --topic cmnd/hackgt/<yourdevicename>/power --message off`
 
 On:
-`python mqtt_cli.py --message on --topic cmnd/<yourdevicename>/power`
+`python mqtt_cli.py --topic cmnd/hackgt/<yourdevicename>/power --message on `
 
 Subscrbie to a topic
-`python mqtt_cli.py --topic stat/<yourdevicename>/POWER`
+`python mqtt_cli.py --topic stat/hackgt/<yourdevicename>/POWER`
 
 ## webui.py example command:
 Start webserver:
