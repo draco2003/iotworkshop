@@ -13,11 +13,11 @@ def on_message(client, userdata, msg):
 
 
 @click.command()
-@click.option('--host', default='hackher413.danrowe.com',
+@click.option('--host', default='hackgt.danrowe.com',
               help='The mqtt broker to connect to.')
 @click.option('--port', default=1883,
               help='The mqtt broker port to connect to.')
-@click.option('--topic', default='hackher413Workshop',
+@click.option('--topic', default='hackgt',
               help='The mqtt topic to send/receive on.')
 @click.option('--message',
               help='If message is passed, sends message instead of listening')
