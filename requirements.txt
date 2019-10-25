@@ -1,9 +1,9 @@
 click
 flask
 paho-mqtt
-python-engineio=3.4.2
-python-socketio=3.3.1
+python-engineio==3.3.2
+python-socketio==3.1.2
 Flask-Bootstrap
-Flask-SocketIO
+Flask-SocketIO==3.2.2
 eventlet
 flask_mqtt
