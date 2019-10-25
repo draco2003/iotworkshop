@@ -3,9 +3,9 @@ This repo is the student resources required to partcipate in the "Your code brig
 To Get Started click the following link sandbox link to create a workspace on Gitpod.
 You're required to have a github user account to verify user/email in order to use the Gitpod service. 
 
-[Sandbox environment for this Workshop/Repo](https://gitpod.io/#https://github.com/draco2003/hackher413)
+[Sandbox environment for this Workshop/Repo](https://gitpod.io/#https://github.com/draco2003/iotworkshop)
 
-[Presentation Slides](https://github.com/draco2003/hackher413/blob/master/Event%20Powerpoint%20Template.pdf)
+[Presentation Slides](https://github.com/draco2003/iotworkshop/blob/master/Presentation.pdf)
 
 ## Files in this repo to checkout
 
